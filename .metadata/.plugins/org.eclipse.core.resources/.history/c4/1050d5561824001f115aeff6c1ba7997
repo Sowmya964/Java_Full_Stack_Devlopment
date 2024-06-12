@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class ArithmeticExceptionDemo {
+	public static void main(String[] args) {
+		int quotient,dividend,divisor = 0;
+		int flag = 0;
+		Scanner scnr = new Scanner(System.in);
+		System.out.println("Enter dividend");
+		dividend = scnr.nextInt();
+		while(flag == 0) {
+			System.out.println("Enter divisor");
+			divisor = scnr.nextInt();
+		}
+		try {
+			quotient =dividend / divisor;
+			System.out.println("Quotient = " + quotient);
+			flag = 1;
+		}  catch(ArithmeticException arthexcp) {
+			System.out.println( arthexcp );
+			System.err.println( arthexcp.getMessage() );
+		}
+		
+	}
+}

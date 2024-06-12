@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Showing Project</title>
+</head>
+<body>
+	<table border = "1">
+		<tr>
+			<th>Book Id</th>
+			<th>Book Name</th>
+			<th>Book Author</th>
+			<th>Book Price</th>
+		</tr>
+	</table>
+</body>
+</html>

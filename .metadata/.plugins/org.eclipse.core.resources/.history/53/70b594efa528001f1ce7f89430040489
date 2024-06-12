@@ -1,0 +1,21 @@
+package com.pace.java2;
+
+public class City {
+	String name;
+	String famousFor;
+	long population;
+	String state;
+	
+	public City(String name, String famousFor, long population, String state) {
+		super();
+		this.name = name;
+		this.famousFor = famousFor;
+		this.population = population;
+		this.state = state;
+	}
+
+	
+	
+	
+	
+}

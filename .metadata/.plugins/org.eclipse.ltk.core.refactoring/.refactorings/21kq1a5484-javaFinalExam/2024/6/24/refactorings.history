@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MainApp.java&apos; to &apos;21kq1a5484-javaFinalExam/src/com.pace.java3&apos;&#x0D;&#x0A;- Original project: &apos;21kq1a5484-javaFinalExam&apos;&#x0D;&#x0A;- Destination element: &apos;21kq1a5484-javaFinalExam/src/com.pace.java3&apos;&#x0D;&#x0A;- Original element: &apos;com.pace.java1.MainApp.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.pace.java3" element1="/src&lt;com.pace.java1{MainApp.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1718205842457" units="1" version="1.0"/>
+</session>

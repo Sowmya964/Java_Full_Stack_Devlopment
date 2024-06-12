@@ -1,0 +1,37 @@
+package com.pace.java1;
+
+import java.util.ArrayList;
+
+public class Ticket {
+	long phnNumber;
+	String source;
+	String destination;
+	float price;
+	
+	public Ticket(long phnNumber, String source, String destination, float price) {
+		super();
+		this.phnNumber = phnNumber;
+		this.source = source;
+		this.destination = destination;
+		this.price = price;
+	}
+
+	public void addTicket(ArrayList<Ticket> ticketList) {
+		
+	}
+	public void showTicketsBooked(ArrayList<Ticket> ticketList) {
+		for(Ticket ele : ticketList) {
+			System.out.println(ele);
+		}
+	}
+	
+	public void ticketCount(ArrayList<Ticket> ticketList) {
+		int tickets = 0;
+		for(Ticket count : ticketList) {
+			tickets = tickets +1;
+			System.out.println(tickets);
+		}
+	}
+	
+
+}

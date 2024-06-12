@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ page import = "java.util.ArrayList, com.pace.bean.Product" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Products Page</title>
+</head>
+<body>
+	<%
+		ArrayList<Product> productList = new ArrayList<Product>();
+		productList = (ArrayList<Product>) session.getAttribute("productlist");
+	%>
+	<table border = '1'>
+		<%
+			for(Product product : productList) {
+		%>
+		<tr>
+			<th>Product Id</th>
+			<th>Product Price</th>
+		</tr>
+		<tr>
+			<td align = "center"><%= product.getProductid()%></td>
+			<td align = "center"><%= product.getProductprice()%></td>
+		</tr>
+		<%
+			}
+		%>
+	</table>
+</body>
+</html>

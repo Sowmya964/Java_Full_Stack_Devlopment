@@ -1,0 +1,76 @@
+
+public class Ticket {
+	long phnNumber;
+	String source;
+	String destination;
+	float price;
+	
+	public Ticket(long phnNumber, String source, String destination, float price) {
+		super();
+		this.phnNumber = phnNumber;
+		this.source = source;
+		this.destination = destination;
+		this.price = price;
+	}
+	
+
+	public long getPhnNumber() {
+		return phnNumber;
+	}
+
+
+	public void setPhnNumber(long phnNumber) {
+		this.phnNumber = phnNumber;
+	}
+
+
+	public String getSource() {
+		return source;
+	}
+
+
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+
+	public String getDestination() {
+		return destination;
+	}
+
+
+	public void setDestination(String destination) {
+		this.destination = destination;
+	}
+
+
+	public float getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(float price) {
+		this.price = price;
+	}
+
+
+	public void addTicket(Ticket ticket) {
+		ticket.addTicket(ticket);
+		
+	}
+	public void showTicketsBooked(Ticket ticket) {
+		for(Ticket ele : ticket) {
+			System.out.println(ele);
+		}
+	}
+	
+	public void ticketCount(Ticket ticket) {
+		int tickets = 0;
+		for(int count : ticket) {
+			tickets = tickets +1;
+			System.out.println(tickets);
+		}
+	}
+	
+
+}

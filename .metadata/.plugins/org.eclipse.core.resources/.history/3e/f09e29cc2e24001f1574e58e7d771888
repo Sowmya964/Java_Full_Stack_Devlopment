@@ -1,0 +1,5 @@
+package com.pace.dao;
+
+public class ProductDAO {
+
+}

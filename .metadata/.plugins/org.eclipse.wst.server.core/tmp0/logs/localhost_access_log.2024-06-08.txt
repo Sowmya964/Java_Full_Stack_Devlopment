@@ -1,0 +1,10 @@
+127.0.0.1 - - [08/Jun/2024:14:07:38 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Jun/2024:14:07:40 +0530] "GET /ProductApplication/ HTTP/1.1" 200 765
+0:0:0:0:0:0:0:1 - - [08/Jun/2024:14:07:41 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Jun/2024:14:09:52 +0530] "GET /ProductApplication/ProductServlet?productid=123&productname=table&productprice=6789 HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [08/Jun/2024:14:10:02 +0530] "GET /ProductApplication/ProductServlet?productid=123&productname=table&productprice=6789 HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [08/Jun/2024:14:10:04 +0530] "GET /ProductApplication/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Jun/2024:14:10:04 +0530] "GET /ProductApplication/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Jun/2024:14:10:05 +0530] "GET /ProductApplication/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Jun/2024:14:10:05 +0530] "GET /ProductApplication/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Jun/2024:14:19:09 +0530] "GET /ProductApplication/ProductServlet?productid=89&productname=table&productprice=6789 HTTP/1.1" 200 463

@@ -1,0 +1,13 @@
+package com.pace.java2;
+
+public class City {
+	String name;
+	String famousFor;
+	long population;
+	String state;
+	
+	
+	
+	
+	
+}

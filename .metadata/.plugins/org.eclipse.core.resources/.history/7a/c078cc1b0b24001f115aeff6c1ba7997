@@ -1,0 +1,16 @@
+package com.pace.library.presentation;
+
+import java.sql.SQLException;
+
+import com.pace.library.service.BookServiceProvider;
+
+public class BookUi {
+
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+		
+		BookServiceProvider bookServiceProvider = new BookServiceProvider();
+				
+				bookServiceProvider.updateBooksByPriceSlashService();
+		}
+
+}

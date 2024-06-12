@@ -1,0 +1,15 @@
+package com.pace.java1;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Ticket ticket = new Ticket(long phnNumber, String source, String destination, float price);
+		
+		ArrayList<Ticket>ticketList = new ArrayList<Ticket>();
+		
+		
+	}
+
+}

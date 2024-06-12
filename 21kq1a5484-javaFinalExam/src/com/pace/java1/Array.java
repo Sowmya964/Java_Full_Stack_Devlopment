@@ -1,0 +1,8 @@
+package com.pace.java1;
+public class Array {
+	public void show(int[] array) {
+		for(int counter = 0; counter < array.length; counter++) {
+			System.out.println("Marks[" + counter + "] - " + array[counter]);
+		}
+	}
+}
